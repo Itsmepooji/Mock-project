@@ -1,0 +1,90 @@
+
+<html>
+<head>
+  <style>
+    td {
+      color: white;
+      height: 40px;  
+
+       }
+    .smallbox {
+      height:2px;
+    
+     }
+    .koko {
+      margin-top: 60px;
+}
+
+body {
+  background-image: url('doco1.jpg');
+}
+      
+  </style>
+</head>
+<body>
+  
+  <form method="post">
+  <center>
+    <h1 style="color:SlateBlue"><u>Patient Details</u></h1>
+<div class="koko">
+   <table border="0" cellspacing="0" bgcolor="SlateBlue" style="border:1px solid blue; padding:10px">
+      <tr>
+        <td width="200px">FIRST NAME</td>
+        <td><input type="text" maxlength="30"/>(max 30 characters a-z and A-Z)</td>
+      </tr>
+      <tr>
+        <td width="200px">LAST NAME</td>
+        <td><input type="text" maxlength="30"/>(max 30 characters a-z and A-Z)</td>
+      </tr>
+        <tr>
+        <td width="200px">DOCTOR TO APPOINT</td>
+        <td>
+          <select name="categoryp">
+            <option>NONE</option>
+            <option>ENT</option>
+            <option>OPD</option>
+            <option>CARDIOLOGIST</option>
+            <option>DENTIST</option>
+            
+          </select>
+           
+        </td>
+
+        <tr>
+        <td width="200px">TIME SLOT</td>
+        <td><input type="time"/></td>
+      </tr>
+
+
+
+
+
+      <tr>
+        <td width="200px">EMAIL ID</td>
+        <td><input type="email"/></td>
+      </tr> 
+      <tr>
+        <td width="200px">MOBILE NUMBER</td>
+        <td><input type="text" maxlength="10" />(10 digit number)</td>
+      </tr>
+      <tr>
+        <td width="200px">GENDER</td>
+        <td>Male<input type="radio" name=gender">Female<input type="radio" name=gender"></td>
+      </tr>
+     
+   
+    
+      <tr>
+        <td></td>
+        <td align="center" style="padding-right:180px"><input type="submit" value="Submit"/>
+            <input type="reset" value="Reset"/>
+        </td>
+      </tr>                       
+  
+    </table>
+  </center>
+  </form>   
+</div>
+</body>
+</html>
+
