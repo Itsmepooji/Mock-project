@@ -1,0 +1,6 @@
+customhost = "rds-22330.csaruqlxxway.us-east-1.rds.amazonaws.com"
+customuser = "admin"
+custompass = "password"
+customdb ="rds-22330"
+custombucket = "rds-22330-buc"
+customregion = "us-east-1"
